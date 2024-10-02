@@ -1,1 +1,17 @@
 Cursos de Extensão
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+Orientações de instalação
+-------------------------
+Nome do diretório: tapr-2024-turmab-extensao-java
+
+Extensões: - java extension pack
+           - spring boot extension pack
+
+Criando o projeto
+- F1 spring initialllizer
+- 3.3.4
+- Java
+- br.univille
+- microservextensao
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
