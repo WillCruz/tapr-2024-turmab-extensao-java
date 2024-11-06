@@ -1,4 +1,4 @@
-package br.univille.microservextensao.cursoExtensão.service.impl;
+package br.univille.microservextensao.cursoextensao.service.impl;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -6,9 +6,9 @@ import java.util.ArrayList;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.univille.microservextensao.cursoExtensão.entity.Aluno;
-import br.univille.microservextensao.cursoExtensão.repository.AlunoRepository;
-import br.univille.microservextensao.cursoExtensão.service.AlunoService;
+import br.univille.microservextensao.cursoextensao.entity.Aluno;
+import br.univille.microservextensao.cursoextensao.repository.AlunoRepository;
+import br.univille.microservextensao.cursoextensao.service.AlunoService;
 
 @Service
 public class AlunoServiceImpl 

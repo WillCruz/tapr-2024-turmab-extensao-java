@@ -1,6 +1,5 @@
-package br.univille.microservextensao.cursoExtensão.entity;
+package br.univille.microservextensao.cursoextensao.entity;
 
-import java.util.UUID;
 
 import org.springframework.data.annotation.Id;
 

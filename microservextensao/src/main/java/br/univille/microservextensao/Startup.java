@@ -7,8 +7,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 
-import br.univille.microservextensao.cursoExtensão.entity.Aluno;
-import br.univille.microservextensao.cursoExtensão.repository.AlunoRepository;
+import br.univille.microservextensao.cursoextensao.entity.Aluno;
+import br.univille.microservextensao.cursoextensao.repository.AlunoRepository;
 
 @Component
 public class Startup {
