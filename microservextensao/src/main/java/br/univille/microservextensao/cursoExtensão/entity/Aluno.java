@@ -1,4 +1,4 @@
-package br.univille.microservextensao.cursoExtensao.entity;
+package br.univille.microservextensao.cursoExtensão.entity;
 
 import java.util.UUID;
 
