@@ -7,9 +7,9 @@ import com.azure.spring.data.cosmos.core.mapping.Container;
 import com.azure.spring.data.cosmos.core.mapping.GeneratedValue;
 import com.azure.spring.data.cosmos.core.mapping.PartitionKey;
 
-@Container(containerName = "aluno", autoCreateContainer = true)
+@Container(containerName = "aluno", autoCreateContainer = true) /*Somente entidade root*/
 public class Aluno {
-    @Id
+    @Id /*Somente entidade root*/
     @PartitionKey
     @GeneratedValue
     private String id;    
