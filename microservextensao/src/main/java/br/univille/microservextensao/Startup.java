@@ -20,6 +20,5 @@ public class Startup {
         var aluno = new Aluno();
         aluno.setNome("Mariazinha");
         repository.save(aluno);
-
     }
 }
