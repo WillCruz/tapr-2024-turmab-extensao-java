@@ -1,0 +1,24 @@
+### Buscar todos os cursos
+GET http://localhost:8080/api/v1/cursos
+
+##################################################################################
+### Inserir um curso
+POST http://localhost:8080/api/v1/cursos
+Content-Type: application/json
+
+{
+    "nome":"Sistemas de Informação"
+}
+
+##################################################################################
+### Alterar um curso
+PUT http://localhost:8080/api/v1/cursos/0fb8fde7-015d-4956-8aee-e53e2283d6f4
+Content-Type: application/json
+
+{
+    "nome":"BSI - Sistemas de Informação"
+}
+
+##################################################################################
+### Deletar um aluno
+DELETE http://localhost:8080/api/v1/cursos/4426c483-9b4c-4436-be0e-dab9758e8a40
